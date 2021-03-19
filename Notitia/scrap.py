@@ -15,7 +15,7 @@ class scrap:
 
     def html_import(self):
         html_doc = rq.get('https://www.lotto.pl/lotto/wyniki-i-wygrane')
-        self.soup = bs(html_doc, 'html.parser')
+        self.soup = bs(html_doc.text, 'html.parser')
 
 
     def scraping(self):
@@ -23,9 +23,10 @@ class scrap:
         x = len(numb)/6
 
         for i in numb:
-            self.numbers.append(int(i))
-            
-        self.numbers = np.array_split(self.numbers, x)
+            self.numbers.append(int(i.text))
+           
+        print(self.numb)    
+        #self.numbers = np.array_split(self.numbers, x)
 
         #<div data-v-4593a923="" class="d-md-none special-mobile-box"> 
         #  <p data-v-4593a923="" class="resu1lt-item__name">Lotto</p> 

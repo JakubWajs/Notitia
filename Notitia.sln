@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Notitia", "Notitia\Notitia.pyproj", "{1EB35B53-B964-4FCF-B9F7-3E0330448251}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "notitia", "notitia.pyproj", "{49331B49-1CEC-4774-9C82-6506D8508A3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EB35B53-B964-4FCF-B9F7-3E0330448251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EB35B53-B964-4FCF-B9F7-3E0330448251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49331B49-1CEC-4774-9C82-6506D8508A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49331B49-1CEC-4774-9C82-6506D8508A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {99FC1A40-9F7C-4EBA-B986-30EABF4A5451}
+		SolutionGuid = {31C2F376-F308-40F0-B55C-D97FC5C28B59}
 	EndGlobalSection
 EndGlobal
